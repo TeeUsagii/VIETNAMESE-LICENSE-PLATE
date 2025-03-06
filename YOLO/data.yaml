@@ -1,6 +1,0 @@
-path: F:/jupyter/PhatHienBienSoXe/data/
-train: F:/jupyter/PhatHienBienSoXe/data/images/train # Đường dẫn đến thư mục ảnh huấn luyện
-val: F:/jupyter/PhatHienBienSoXe/data/images/val # Đường dẫn đến thư mục ảnh kiểm tra
-# test: dataset/images/test # Đường dẫn đến thư mục ảnh thử nghiệm (tùy chọn)
-nc: 1 # Số lượng lớp (1 cho "biensoxe")
-names: ['biensoxe'] # Tên của lớp
