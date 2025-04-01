@@ -1,32 +1,36 @@
 # Bỏ qua tất cả file trong images và labels
-Training/data/images/*
-Training/data/labels/*
+Training-yolo/data/images/*
+Training-yolo/data/labels/*
 
 # Nhưng vẫn giữ lại các thư mục con
-!Training/data/images/train/
-!Training/data/images/val/
-!Training/data/images/test/
-!Training/data/labels/train/
-!Training/data/labels/val/
-!Training/data/labels/test/
+!Training-yolo/data/images/train/
+!Training-yolo/data/images/val/
+!Training-yolo/data/images/test/
+!Training-yolo/data/labels/train/
+!Training-yolo/data/labels/val/
+!Training-yolo/data/labels/test/
 
 # Chỉ cho phép file .gitkeep trong các thư mục
-Training/data/images/train/*
-Training/data/images/val/*
-Training/data/images/test/*
-Training/data/labels/train/*
-Training/data/labels/val/*
-Training/data/labels/test/*
+Training-yolo/data/images/train/*
+Training-yolo/data/images/val/*
+Training-yolo/data/images/test/*
+Training-yolo/data/labels/train/*
+Training-yolo/data/labels/val/*
+Training-yolo/data/labels/test/*
 
 # Cho phép .gitkeep trong các thư mục trên
-!Training/data/images/train/.gitkeep
-!Training/data/images/val/.gitkeep
-!Training/data/images/test/.gitkeep
-!Training/data/labels/train/.gitkeep
-!Training/data/labels/val/.gitkeep
-!Training/data/labels/test/.gitkeep
+!Training-yolo/data/images/train/.gitkeep
+!Training-yolo/data/images/val/.gitkeep
+!Training-yolo/data/images/test/.gitkeep
+!Training-yolo/data/labels/train/.gitkeep
+!Training-yolo/data/labels/val/.gitkeep
+!Training-yolo/data/labels/test/.gitkeep
 
 # Bỏ qua cache và các thư mục không mong muốn
-.YOLO/ipynb_checkpoints/
-Training/data/labels/*cache*
+Training-yolo/.ipynb_checkpoints/
+Training-yolo/data/labels/*cache*
 .venv
+.ipynb_checkpoints/
+
+Traning-cnn/dataset/split_dataset
+Traning-cnn/.ipynb_checkpoints/
