@@ -34,3 +34,5 @@ Training-yolo/data/labels/*cache*
 
 Traning-cnn/dataset/split_dataset
 Traning-cnn/.ipynb_checkpoints/"__pycache__/" 
+__pycache__/
+*.pyc
