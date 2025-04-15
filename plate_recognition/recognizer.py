@@ -79,7 +79,8 @@ def segment_characters(aligned_plate):
 
 class LicensePlateRecognizer:
     def __init__(self):
-        self.recogChar = load_model("./models/license_plate_char.h5")  # Load mô hình trong class
+        # self.recogChar = load_model("./models/license_plate_char.h5")  # Load mô hình trong class
+        self.recogChar = load_model("D:/Tien/Project/Python/VIETNAMESE-LICENSE-PLATE/Traning-cnn/cnn1/model/license_plate_char_best.h5")  # Load mô hình trong class
         self.candidates = []
 
     def recognize_characters(self, candidates):
